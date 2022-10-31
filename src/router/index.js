@@ -32,7 +32,8 @@ const router = new VueRouter({
             meta: {layout: 'AppLayout'}
         }
     ],
-    mode: 'history'
+    mode: "hash",
+    base: '/test-project/'
 })
 
 export default router
